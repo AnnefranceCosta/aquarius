@@ -1,0 +1,198 @@
+/*Limpar as formatações*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+#navegacao{
+    background-color: white;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+    border: 1px solid #80d4ff;
+}
+
+.azul{
+    color:#80d4ff;
+}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+}
+
+#logo{
+    float: left;
+}
+
+/*Formatação do menu*/
+a{
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/*Links não visitados*/
+a:link{
+    color:#838383;
+}
+/*Links visitados*/
+a:visited{
+    color: #838383;
+}
+/*Links active*/
+a:active{
+    color:#535353;
+}
+/*Links hover*/
+a:hover{
+    color: #fff;
+    background-color:#80d4ff;
+}
+
+
+/*Configurando o corpo*/
+.area-principal{
+    width: 720px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#cuidados{
+    font-style: italic;
+    color: #003399;
+}
+
+.cuidados-princi{
+    padding: 30px;
+}
+
+/*Configurar Home*/
+
+#peixe-principal{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 150px;
+    height: 200px;
+}
+
+#bloco-um{
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: #e6f7ff;
+    width: 670px;
+    border-radius: 10px;   
+}
+#bate-papo{
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 150px;
+    height: 200px;
+}
+
+#bloco-dois{
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: #e6f7ff;
+    width: 670px;
+    border-radius: 10px;   
+}
+
+
+/*Configurações Água salgada*/
+#cuidado-marinho{
+    color:#99bbff;
+    font-style: inherit;
+}
+.post-peixe{
+    margin:10px;
+    border-radius: 10px;
+    border: 1px inset #d8d8d8;
+}
+.titu-peixeEsq{
+    padding-left: 10px;
+    color:#80d4ff;
+}
+.titu-peixeDir{
+    padding-left: 550px;
+    color:#80d4ff;
+}
+.img-peixeEsq{
+    float: left;
+    height: 150px;
+    width: 200px;
+}
+.img-peixeDir{
+    float: right;
+    height: 150px;
+    width: 200px;
+}
+
+/*Configurando Água doce*/
+#cuidado-doce{
+    color:#00e68a;
+    font-style: inherit;
+}
+.post-peixeDoce{
+    margin:10px;
+    border-radius: 10px;
+    border: 1px inset #4dffb8;
+}
+.titu-peixeEsqDoce{
+    padding-left: 10px;
+    color:#4dffb8;
+}
+.titu-peixeDirDoce{
+    padding-left: 550px;
+    color:#4dffb8;
+}
+/*Configurando Contato*/
+#contato{
+    text-align: center;
+    height: 120px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 5px inset #f5f5f0;
+    margin-left: 150px;
+}
+ .imgInxta{
+     margin-left: 70px;
+     width: 150px;
+     height: 150px;
+ }
+
+ .area-principal-contato{
+    width: 720px;
+    height: 520px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#bloco-solucao{
+    width: 720px;
+    height: 120px;
+    background-color: white;
+}
+
+/*Configurações rodapé*/
+.rodape{
+    width: 100%;
+    background-color: white;
+    margin: 2px;
+    border: 0.5px solid #d8d8d8;
+    border-radius: 10px;
+    color: #003399;
+}
+
